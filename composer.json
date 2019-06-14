@@ -1,0 +1,11 @@
+{
+	"autoload": {
+		"psr-4": {
+			"Test\\": "src"
+		}
+	},
+	"require": {
+		"smarty/smarty": "^3.1",
+		"simplon/mysql": "^2.2"
+	}
+}
