@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.33, created on 2019-06-14 20:18:35
+/* Smarty version 3.1.33, created on 2019-06-14 21:04:32
   from '/Users/ronin/Code/Youngzsoft/test_one/templates/index.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5d04011b6d9fb4_96229320',
+  'unifunc' => 'content_5d040be0365979_62764081',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'bdf6d05e22943266eccec4a449a2291a44a73138' => 
     array (
       0 => '/Users/ronin/Code/Youngzsoft/test_one/templates/index.tpl',
-      1 => 1560543459,
+      1 => 1560544141,
       2 => 'file',
     ),
   ),
@@ -22,7 +22,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:footer.tpl' => 1,
   ),
 ),false)) {
-function content_5d04011b6d9fb4_96229320 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5d040be0365979_62764081 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_subTemplateRender("file:header.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array('title'=>"Project Test"), 0, false);
 ?>
 
@@ -53,9 +53,9 @@ for ($__section_sec1_0_iteration = 1, $_smarty_tpl->tpl_vars['__smarty_section_s
 
 						  			</a></td>
 						  		<td><?php echo $_smarty_tpl->tpl_vars['coupons']->value[(isset($_smarty_tpl->tpl_vars['__smarty_section_sec1']->value['index']) ? $_smarty_tpl->tpl_vars['__smarty_section_sec1']->value['index'] : null)]['discount'];?>
-</td>
+%</td>
 						  		<td><?php echo $_smarty_tpl->tpl_vars['coupons']->value[(isset($_smarty_tpl->tpl_vars['__smarty_section_sec1']->value['index']) ? $_smarty_tpl->tpl_vars['__smarty_section_sec1']->value['index'] : null)]['commission'];?>
-</td>
+%</td>
 						  		<td><?php echo $_smarty_tpl->tpl_vars['coupons']->value[(isset($_smarty_tpl->tpl_vars['__smarty_section_sec1']->value['index']) ? $_smarty_tpl->tpl_vars['__smarty_section_sec1']->value['index'] : null)]['product'];?>
 </td>
 						  		<td><?php echo $_smarty_tpl->tpl_vars['coupons']->value[(isset($_smarty_tpl->tpl_vars['__smarty_section_sec1']->value['index']) ? $_smarty_tpl->tpl_vars['__smarty_section_sec1']->value['index'] : null)]['status'];?>
